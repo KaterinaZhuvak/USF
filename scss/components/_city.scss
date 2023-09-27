@@ -1,0 +1,27 @@
+.city {
+  background-image: url(../../img/city-bacground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__title {
+    color: $black;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  &__p {
+    color: $black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 79px;
+  }
+}

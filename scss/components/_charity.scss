@@ -1,0 +1,46 @@
+.charity {
+  background-color: $usf-black;
+  &__title {
+    color: #ffd76e;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  &__p {
+    position: relative;
+    bottom: 215px;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 32px;
+    padding: 88px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+  }
+  &__image {
+    display: inline-block;
+    width: 395px;
+    height: 529px;
+    &__img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
