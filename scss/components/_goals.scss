@@ -1,0 +1,74 @@
+.goals {
+  background-color: $usf-black;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 15px;
+    padding-bottom: 112px;
+  }
+  &__item-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__title {
+    color: #ffd76e;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 24px;
+  }
+  &__item-image {
+    width: 312px;
+    height: 250px;
+    &__item-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__p {
+    width: 312px;
+    @include desc;
+    font-size: 20px;
+    border: 2px solid #ffd76e;
+    margin-top: 49px;
+    padding: 11px 7px;
+  }
+  &__p2 {
+    width: 312px;
+    @include desc;
+    font-size: 20px;
+    border: 2px solid #ffd76e;
+    padding-top: 95px;
+    padding-bottom: 44px;
+    margin-bottom: 41px;
+  }
+  &__p3 {
+    width: 312px;
+    @include desc;
+    font-size: 20px;
+    border: 2px solid #ffd76e;
+    padding-top: 148px;
+    padding-bottom: 90px;
+  }
+
+  &__img-plane {
+    width: 260px;
+    height: 106px;
+    margin-top: 73px;
+  }
+  &__help-img {
+    width: 312px;
+    height: 250px;
+  }
+  &__military-plane {
+    width: 312px;
+    height: 173px;
+    margin-bottom: 6px;
+  }
+}

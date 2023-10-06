@@ -1,0 +1,36 @@
+.footer {
+  background-image: url(../../img/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    position: absolute;
+    right: 15%;
+    margin-top: -250px;
+    margin-bottom: 0;
+  }
+  &__title {
+    @include desc;
+    font-size: 48px;
+    font-weight: 500px;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 160px;
+  }
+  &__rectangle {
+    position: inherit;
+    left: 35%;
+    bottom: 0;
+  }
+  &__item {
+    margin: 20px auto;
+  }
+}
+.fa-brands {
+  font-size: 35px;
+}

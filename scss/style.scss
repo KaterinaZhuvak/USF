@@ -1,9 +1,5 @@
-@import "./utils/variables";
-@import "./utils/mixin";
-@import "./utils/colors";
-@import "./components/header";
-@import "./components/about.us";
-@import "./components/fondation";
-@import "./components/city";
-@import "./components/information";
-@import "./components/charity";
+@import "./utils/variables", "./utils/mixin", "./utils/colors",
+  "./components/header", "./components/about.us", "./components/fondation",
+  "./components/city", "./components/information", "./components/charity",
+  "./components/games", "./components/goals", "./components/requisites",
+  "./components/footer";
